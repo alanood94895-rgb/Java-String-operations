@@ -21,7 +21,7 @@ public class StringCompareValidateSystem {
         System.out.print("Enter another string to compare: ");
         String other = input.nextLine();
 
-        // Compare both strings using equals()
+        // Compare both strings
         if (text.equals(other)) {
             System.out.println("Result: Strings are EQUAL");
         } else {
