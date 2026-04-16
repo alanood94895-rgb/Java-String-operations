@@ -10,10 +10,8 @@ public class StringDoWhileDemo {
         // Use length()
         System.out.println("Length: " + text.length());
 
-        // Counter
-        int i = 0;
-
         // Counters
+        int i = 0;
         int lowercase = 0;
         int spaces = 0;
 
@@ -39,7 +37,7 @@ public class StringDoWhileDemo {
         } while (i < text.length());
 
         // display results
-        System.out.println("\nTotal Lowercase Letters: " + lowercase);
+        System.out.println("Total Lowercase Letters: " + lowercase);
         System.out.println("Total Spaces: " + spaces);
     }
 }
