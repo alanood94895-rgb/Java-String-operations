@@ -17,7 +17,7 @@ public class StringCheckDemo {
         String updatedMessage = message.replace("powerful", "easy");
         System.out.println("Updated Message: " + updatedMessage);
 
-        // Use contains() to check if message includes a word
+        // Use contains()
         System.out.println("Contains 'Java'? " + message.contains("Java"));
 
         // Use charAt() to display character at a specific position
