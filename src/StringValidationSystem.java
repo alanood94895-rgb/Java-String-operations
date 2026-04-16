@@ -40,23 +40,23 @@ public class StringValidationSystem {
 
         // Compare both strings
         if (text.equalsIgnoreCase(other)) {
-            System.out.println("Comparison: Both strings are EQUAL (ignore case)");
+            System.out.println("Comparison: Both strings are equal (ignore case)");
         } else {
-            System.out.println("Comparison: Strings are NOT equal");
+            System.out.println("Comparison: Strings are not equal");
         }
 
         // Extract part of the string using substring
-        if (text.length() > 3) {
-            System.out.println("Substring (0,3): " + text.substring(0, 3));
+        if (text.length() > 4) {
+            System.out.println("Substring (0,4): " + text.substring(0, 4));
         } else {
             System.out.println("String too short for substring operation");
         }
 
         // Check string length condition
-        if (text.length() > 5) {
-            System.out.println("Message: String length is greater than 5");
+        if (text.length() > 6) {
+            System.out.println("Message: String length is greater than 6");
         } else {
-            System.out.println("Message: String length is 5 or less");
+            System.out.println("Message: String length is 6 or less");
         }
 
         // Close scanner
