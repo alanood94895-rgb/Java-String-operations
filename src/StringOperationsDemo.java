@@ -20,7 +20,7 @@ public class StringOperationsDemo {
         // Create another String variable (company name)
         String companyName = "TechCompany";
 
-        // Use concat() to join both strings
+        // Use concat()
         String combined = name.concat(" ").concat(companyName);
 
         // Display final combined string
