@@ -1,6 +1,6 @@
 public class StringProcessDemo {
 
-    // Main method
+    // Main Method
     public static void main(String[] args) {
 
         // Create a String variable with a full employee record (with extra spaces)
@@ -17,7 +17,7 @@ public class StringProcessDemo {
         String[] parts = cleanedRecord.split(",");
 
         // Display each part of the array
-        System.out.println("\nSplit Parts:");
+        System.out.println("Split Parts:");
         for (String part : parts) {
             System.out.println(part.trim()); // trim each part
         }
