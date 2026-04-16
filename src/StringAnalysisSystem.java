@@ -53,7 +53,7 @@ public class StringAnalysisSystem {
             System.out.println("Message: String is short");
         }
 
-        // Close scanner
+        // Close Scanner
         input.close();
     }
 }
