@@ -28,7 +28,7 @@ public class StringIfElseIfDemo {
         } else if (text.equalsIgnoreCase("javacourse")) {
             System.out.println("String matches 'javacourse' (ignore case)");
 
-            // Default message
+            // Default Message
         } else {
             System.out.println("No condition matched");
         }
