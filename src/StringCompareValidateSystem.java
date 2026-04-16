@@ -15,7 +15,7 @@ public class StringCompareValidateSystem {
         System.out.println("Original String: " + text);
 
         // Display length of string
-        System.out.println("Length: " + text.length());
+        System.out.println("Length String: " + text.length());
 
         // Ask user to enter another string for comparison
         System.out.print("Enter another string to compare: ");
@@ -51,10 +51,10 @@ public class StringCompareValidateSystem {
         }
 
         // Check length condition using if-else
-        if (text.length() > 8) {
-            System.out.println("Message: String length is greater than 8");
+        if (text.length() > 10) {
+            System.out.println("Message: String length is greater than 10");
         } else {
-            System.out.println("Message: String length is 8 or less");
+            System.out.println("Message: String length is 10 or less");
         }
 
         // Close scanner
