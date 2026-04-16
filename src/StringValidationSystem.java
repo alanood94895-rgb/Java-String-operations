@@ -4,10 +4,10 @@ public class StringValidationSystem {
 
     public static void main(String[] args) {
 
-        // Create Scanner object for user input
+        // Create Scanner object
         Scanner input = new Scanner(System.in);
 
-        // Ask user to enter a sample string
+        //  Enter a sample string
         System.out.print("Enter a sample string: ");
         String text = input.nextLine();
 
@@ -23,11 +23,11 @@ public class StringValidationSystem {
         // Convert to lowercase
         System.out.println("Lowercase: " + text.toLowerCase());
 
-        // Ask user to enter a word to search
+        // Ask the user to enter a word to search
         System.out.print("Enter a word to search: ");
         String word = input.nextLine();
 
-        // Check if word exists in string
+        // check whether word exists by using the contains()
         if (text.contains(word)) {
             System.out.println("Result: Word FOUND in the string");
         } else {
