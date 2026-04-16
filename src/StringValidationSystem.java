@@ -59,7 +59,7 @@ public class StringValidationSystem {
             System.out.println("Message: String length is 6 or less");
         }
 
-        // Close scanner
+        // Close Scanner
         input.close();
     }
 }
