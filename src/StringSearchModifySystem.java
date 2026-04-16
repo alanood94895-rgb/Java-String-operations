@@ -7,7 +7,7 @@ public class StringSearchModifySystem {
         // Create Scanner object for user input
         Scanner input = new Scanner(System.in);
 
-        // Ask user to enter a sample string
+        // Ask user to enter a Sample string
         System.out.print("Enter a sample string: ");
         String text = input.nextLine();
 
