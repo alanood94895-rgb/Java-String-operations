@@ -14,7 +14,7 @@ public class StringLoopValidationSystem {
         // Display original string
         System.out.println("Original String: " + text);
 
-        // Display total number of characters
+        // Display length method
         System.out.println("Length: " + text.length());
 
         // Variable to count vowels
@@ -45,13 +45,13 @@ public class StringLoopValidationSystem {
 
         // Check if word exists in string
         if (text.contains(word)) {
-            System.out.println("Result: Word FOUND in the string");
+            System.out.println("Result: Word found in the string");
         } else {
-            System.out.println("Result: Word NOT FOUND in the string");
+            System.out.println("Result: Word NOT found in the string");
         }
 
         // Check length condition
-        if (text.length() > 10) {
+        if (text.length() > 20) {
             System.out.println("Message: String is long");
         } else {
             System.out.println("Message: String is short");
