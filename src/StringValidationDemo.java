@@ -1,6 +1,6 @@
 public class StringValidationDemo {
 
-    // Main method
+    // Main Method
     public static void main(String[] args) {
 
         // Create a String variable with a sample text
