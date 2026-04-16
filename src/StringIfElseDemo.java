@@ -25,14 +25,14 @@ public class StringIfElseDemo {
             System.out.println("Password is incorrect");
         }
 
-        // Use contains()
+        // Use Contains()
         if (username.contains("a")) {
             System.out.println("Username contains letter 'a'");
         } else {
             System.out.println("Username does not contain letter 'a'");
         }
 
-        // use if to check username is empty or not
+        // Use if to check username is empty or not
         if (username.isEmpty()) {
             System.out.println("Username is empty");
         } else {
