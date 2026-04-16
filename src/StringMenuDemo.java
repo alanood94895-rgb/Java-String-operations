@@ -12,7 +12,7 @@ public class StringMenuDemo {
         String text = input.nextLine(); //read user input
 
         // Display output
-        System.out.println("\nOriginal String: " + text);
+        System.out.println("Original String: " + text);
 
         // Display 5 menu options
         System.out.println("  String Menu");
