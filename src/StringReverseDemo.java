@@ -43,7 +43,7 @@ public class StringReverseDemo {
 
         System.out.println("Character '" + target + "' appears: " + count + " times");
 
-        // Visual comparison
+        // Visual Comparison
         System.out.println("Original: " + text);
         System.out.println("Reversed: " + reversed);
     }
