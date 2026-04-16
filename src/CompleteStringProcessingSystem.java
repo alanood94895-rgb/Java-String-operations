@@ -47,7 +47,7 @@ public class CompleteStringProcessingSystem {
         for (int i = 0; i < text.length(); i++) {
 
 
-            // display each character
+            // Display each character
             char ch = text.charAt(i);
 
             // Count vowels
