@@ -19,7 +19,7 @@ public class StringNestedLoopDemo {
         // Outer loop (first string)
         for (int i = 0; i < text1.length(); i++) {
 
-            // (second string)
+            // (Second string)
             for (int j = 0; j < text2.length(); j++) {
 
                 // Compare characters using charAt()
