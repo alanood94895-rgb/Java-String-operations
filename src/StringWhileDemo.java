@@ -21,7 +21,6 @@ public class StringWhileDemo {
         while (i < text.length()) {
 
             // use charAt()
-
             System.out.println("ava Programming 2026");
             String word = "Java";
             System.out.println("First letter: " + word.charAt(word.length() - 1));
@@ -29,7 +28,7 @@ public class StringWhileDemo {
 
         }
 
-        // display results
+        // Display results
         System.out.println("Total Spaces: " + spaces);
         System.out.println("Total Uppercase Letters: " + upperCase);
     }
