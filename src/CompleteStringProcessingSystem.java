@@ -27,7 +27,7 @@ public class CompleteStringProcessingSystem {
         System.out.print("Enter a word to search: ");
         String searchWord = input.nextLine();
 
-        System.out.println("Contains word? " + text.contains(searchWord));
+        System.out.println("Contains word" + text.contains(searchWord));
 
         // Compare strings
         System.out.print("Enter another string to compare: ");
@@ -46,20 +46,14 @@ public class CompleteStringProcessingSystem {
 
         for (int i = 0; i < text.length(); i++) {
 
-            char ch = text.charAt(i);
 
             // display each character
-            System.out.println(ch);
+            char ch = text.charAt(i);
 
-            // vowel counting using switch (alternative to if-condition)
-            switch (Character.toLowerCase(ch)) {
-                case 'a':
-                case 'e':
-                case 'i':
-                case 'o':
-                case 'u':
-                    vowels++;
-                    break;
+            // Count vowels
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'
+                    || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
+                vowels++;
             }
         }
 
