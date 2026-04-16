@@ -5,7 +5,7 @@ public class StringSwitchDemo {
         // Create a String variable
         String role = "Manager";
 
-        // Display the original string
+        // Display the original String
         System.out.println("Role: " + role);
 
         // Switch statement using String
